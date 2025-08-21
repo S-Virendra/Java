@@ -2,7 +2,7 @@ public class Selection {
     public static void main(String[] args) {
         int []arr={4,5,17,3,8};
 
-        //selection sort 
+        //selection sort one swap in each iteration
         for(int i=0;i<arr.length-1;i++){
             int minIndex=i;
             for(int j=i+1;j<arr.length;j++){
