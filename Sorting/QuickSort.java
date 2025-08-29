@@ -41,7 +41,7 @@
 
         quickSort(arr, 0, n - 1);
 
-        System.out.println("Sorted array:");
+System.out.println("Sorted array:");
         for (int num : arr) {
             System.out.print(num + " ");
         }
