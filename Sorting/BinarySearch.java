@@ -22,7 +22,7 @@ public static int binarysearch(int arr[],int target){
 
     public static void main(String[] args) {
         int arr[]={4,5,9,11,26};
-        int target=9;
+        int target=26;
       int res=  binarysearch(arr,target);
       if(res==-1){
         System.out.println("not found");
